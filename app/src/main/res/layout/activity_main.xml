@@ -11,6 +11,10 @@
     <com.sariel.stickyanimation.weight.TouchPullView
         android:id="@+id/touchPull"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
 
+    <com.sariel.stickyanimation.weight.BesselView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </RelativeLayout>
