@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -12,9 +13,17 @@
         android:id="@+id/touchPull"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone"/>
+        app:pContentDrawable="@drawable/ic_draw_circle"
+        app:pContentDrawableMargin="2dp"
+        app:pDraHeight="120dp"
+        app:pColor="@color/colorAccent"
+        app:pRadius="20dp"
+        app:pTangentAngle="110"
+        app:TargetGravityHeight="4dp"
+        app:pTargetWidth="200dp"/>
 
-    <com.sariel.stickyanimation.weight.BesselView
+    <com.sariel.stickyanimation.weight.TestBessel
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
 </RelativeLayout>

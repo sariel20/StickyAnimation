@@ -12,23 +12,23 @@ import android.view.View;
  * Created by LiangCheng on 2017/12/7.
  */
 
-public class BesselView extends View {
-    public BesselView(Context context) {
+public class TestBessel extends View {
+    public TestBessel(Context context) {
         super(context);
         init();
     }
 
-    public BesselView(Context context, @Nullable AttributeSet attrs) {
+    public TestBessel(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public BesselView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public TestBessel(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }
 
-    public BesselView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public TestBessel(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 

@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
                             mTouchPull.setProgress(progress);
                         }
                         return true;
+                    case MotionEvent.ACTION_UP:
+                        mTouchPull.release();
+                        return true;
                     default:
                         break;
                 }
